@@ -1,0 +1,12 @@
+Standardized Reflections:
+What happens when you initialize a repository? Why do you need to do it?
+
+	* git converts the folder into a valid repository by adding a .git folder and you need to do this so that you can start making commits.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	* A git Working Folder is the project folder that contains all your actual files and has a git repository inside it.
+	* A git Repository is the .git folder inside your Working Directory that contains your entire commit history and that makes the project folder a git working directory.
+	* You can choose to selectively commit certain files only, by bundling them into a 'Staging Area' and then committing that.
+
